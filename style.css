@@ -1,0 +1,62 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  text-align: center;
+}
+.centered-container {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.full-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.go-next {
+  display: block;
+  margin: 10px auto;
+  color: orange;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.interactive-buttons {
+  margin-top: -20px;
+}
+.toggle-row button, .amount-row button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.toggle-row button.selected, .amount-row button.selected {
+  background-color: orange;
+  color: white;
+}
+.donate-final {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.thank-you-message {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: orange;
+  text-shadow: 1px 1px 2px white;
+}
